@@ -1,0 +1,22 @@
+	TRABAJO PRACTICO Nº1
+
+	Algoritmo y Programacion II
+Integrantes: Dos Santo Julian y Braconaro Melina
+
+Se realiza una empresa, que contiene trabajadores. Hay distintos tipos de trabajadores, segun ciertas 
+caracteristicas. Los trabajadores pueden ser: Ejecutivo, Voluntarios, Empleados por hora y Empleados por hora a 
+comision. Estos cuatro tipo de empleados descinden de la clase Trabajador, con el fin de evitar 
+codigo, ya que, comparten metodos y atributos. Todos los trabajadores tienen cuil, 
+generado a partir del dni, y un sueldo. Existe una clase CUIL, por si es necesario generar un cuil (excluyente)
+En la clase empresa, se presenta una interface grafica donde se despleja
+un menu, alli se podran acceder a ciertas funciones como, almacenar un empleado, buscar  trabajador, listar trabajadores, 
+modificar los datos de un empleado y finalizar con el menu. Los empleados son ordenados segun el sueldo, de menos a mayor, si
+dos o mas empelados tiene el mismo sueldo, aparece primero quien tenga menor numero de dni. 
+Cuando se listan los empleados se guardan y se muetran en un archivo de texto, que se creara por defecto en el escritorio
+(cualquier cosa cambiar la ruta del archivo). Se tienen en cuentas las excepciones suficientes y necesarias para que funciones 
+de manera correcta.
+Se utilizo un ArrayList, ya que es mucho mas efciente a la hora de buscar trabajadores de manera aleatoria y agregarlos al final de la 
+lista.
+
+
+	 

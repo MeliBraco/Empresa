@@ -1,0 +1,68 @@
+Trabajo práctico nro. 1.
+
+En una empresa todos los trabajadores se identifican por su nombre y DNI. Hay
+trabajadores de diferentes características, de acuerdo a cómo se les paga. El DNI
+de una persona no se puede modificar bajo ninguna circunstancia. Es único e
+identifica unívocamente al trabajador:
+
+a) Empleado: tiene un CUIL y se le paga de acuerdo a un sueldo fijo. Formato del
+CUIL: XX-XXXXXXXX-X, donde los 8 dígitos del centro son el DNI (si hace falta se
+completa con ceros a la izquierda).
+
+b) Ejecutivo: es un empleado al que se le puede pagar un premio por única vez
+adicional al sueldo fijo cuando la empresa lo desee. El monto a pagar se determina
+al momento de pagarle el bono.
+
+c) Empleado por horas: es un empleado cuyo sueldo fijo indica el valor por hora. Se
+le paga ese valor fijo multiplicado por la cantidad de horas trabajadas.
+
+d) Voluntario: no se le paga nada.
+
+e) Empleado por horas a comisión: es un empleado por horas al que se le agrega a
+la paga una comisión proporcional a las ventas realizadas (se deben conocer
+también el porcentaje de comisión y el total de ventas de ese empleado).
+
+
+Se debe proveer i) la posibilidad de almacenar la información de todos los
+trabajadores de la empresa y de actualizar y consultar su información de manera
+eficiente, se deberá poder ingresar los datos básicos del trabajador: DNI, CUIL,
+sueldo básico, horas trabajadas, valor por horas, porcentaje de comisión, total de
+ventas, etc. según corresponda. ii) calcular el total a pagar a cada trabajador, iii)
+emitir en un archivo de texto un listado de esta información ordenada por monto a
+pagar de mayor a menor y, cuando haya más de un trabajador que cobra el mismo
+monto, ordenado por DNI de menor a mayor iv) Menú interactivo que pida los datos
+por teclado y muestre por pantalla los resultados que permita probar los puntos i),
+ii) y iii)
+
+Se deberán programar excepciones de usuario para verificar si el CUIL ingresado se
+corresponde con el DNI, si se intenta pagar un premio a un empleado que no es unejecutivo 
+o si se intenta pagar comisiones a un empleado que no fue contratado por
+horas a comisión y cualquier otra situación excepcional que se prevea en el diseño
+del sistema.
+
+1. Se trabajará en grupos de hasta cuatro estudiantes.
+Entrega parcial:
+
+2. Entregar antes de las siguientes fechas (4/4 para los grupos del turno de Martes
+y Jueves, 7/4 para los grupos del turno de Miércoles y Viernes, 6/4 para los grupos
+de Jueves y Sábado) un diagrama de clases.
+Entrega definitiva:
+
+3. Fecha de entrega definitiva de todo el TP: 27/4 para los grupos del turno de
+Martes y Jueves, 3/5 para los grupos del turno de Miércoles y Viernes, 29/4 para
+los grupos de Jueves y Sábado.
+
+Se deberá entregar:
+? Informe impreso y en formato digital
+? Casos de prueba
+? Archivo comprimido con las clases de java (sólo los archivos *.java). (solo
+digital)
+? Proyecto java (.project), y todos los archivos necesarios para importar el
+proyecto sin inconvenientes. Zippear la carpeta del proyecto (sólo en formato
+digital)
+El informe debe incluir:
+? Nombres de los integrantes del grupo.
+? Diagrama de clases.
+? Decisiones de diseño tomadas.
+? Lista de archivos *.java comprendidos en solución del problema.
+? Conclusiones
